@@ -1,0 +1,95 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background-color: rgb(29, 26, 26);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 3px solid rgb(0 161 241);
+  background-color: #151515;
+  color: white;
+}
+.btn-div {
+  display: flex;
+  gap: 50px;
+}
+
+.take-test-btn {
+  margin-top: 20px;
+  display: block;
+  background-color: #151515;
+  border: 3px solid rgb(0 161 241);
+  color: white;
+  padding: 10px 20px 10px 20px;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  border-radius: 20px;
+}
+.sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 3px solid rgb(0 161 241);
+  background-color: #151515;
+  margin-bottom: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background: transparent;
+  margin: 10px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+  padding: 0px;
+}
+.nav-links {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: large;
+}
+.name {
+  display: flex;
+}
+.app-name {
+  display: flex;
+  align-items: center;
+}
+.viz {
+  color: #7cbb00;
+  font-size: x-large;
+  font-weight: 1000;
+  font-family: sans-serif;
+}
+.ed {
+  color: #00a1f1;
+  font-size: x-large;
+  font-weight: 1000;
+  font-family: sans-serif;
+  margin-left: 10px;
+}
+
+.svg1 {
+  width: 100px;
+}
